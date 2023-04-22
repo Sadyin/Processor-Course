@@ -1,0 +1,145 @@
+body, html{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Home Page Main Section */
+
+#app {
+  overflow: hidden;
+  touch-action: pan-up;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#app h3 {
+  --fontSize: 45px;
+  --lineHeight: 20px;
+  width: auto;
+  height: calc(2 * var(--lineHeight));
+  line-height: var(--lineHeight);
+  margin: calc(43vh - var(--lineHeight)) auto 0;
+  font-size: var(--fontSize);
+}
+
+#app h4 {
+  font-size: 25px;
+  margin-top: 0px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+#app canvas {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+/* NAV BAR */
+
+.push {
+  margin-right: auto;
+}
+
+.main-nav{
+  display: flex;
+  list-style: none;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+@media only screen and (max-width: 990px) {
+  .main-nav{
+    font-size: 0.6em;
+    padding: 0;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  li {
+    padding: 10px;
+  }
+  .push{
+    margin-left: 14px;
+  }
+  #app h3 {
+    --fontSize: 22px;
+    --lineHeight: 10px;
+    width: auto;
+    height: calc(2 * var(--lineHeight));
+    line-height: var(--lineHeight);
+    margin: calc(43vh - var(--lineHeight)) auto 0;
+    font-size: var(--fontSize);
+  }
+  
+  #app h4 {
+    font-size: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .col-7{
+    text-align: left;
+    width: 100vh;
+    padding-top: 10px;
+  }
+
+ .col{
+    width: 100vh;
+ }
+
+}
+
+li {
+  padding: 0px;
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+li.sections:hover a {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+  border-radius: 10%;
+  background-color: rgba(219, 219, 219, 0.274);
+}
+
+li.push:hover a {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+}
+
+.icons i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.sectiontwo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.list-group-item{
+  text-align: left;
+}
+
