@@ -74,12 +74,13 @@ body, html{
   }
   #app h3 {
     --fontSize: 22px;
-    --lineHeight: 10px;
+    --lineHeight: 29px;
     width: auto;
     height: calc(2 * var(--lineHeight));
     line-height: var(--lineHeight);
     margin: calc(43vh - var(--lineHeight)) auto 0;
     font-size: var(--fontSize);
+    margin-bottom: -10px;
   }
   
   #app h4 {
@@ -101,6 +102,16 @@ body, html{
  .col{
     width: 100vh;
  }
+
+ .clearfix img{
+  margin-left: 69px;
+}
+
+.clearfix p{
+  padding: 10px;
+  margin-left: 27px;
+  margin-right: 10px;
+}
 
 }
 
@@ -141,5 +152,28 @@ li.push:hover a {
 
 .list-group-item{
   text-align: left;
+}
+
+.clearfix img{
+  width: 250px;
+  height: 250px;
+  margin-right: 75px !important;
+  border-radius: 5%;
+}
+
+.clearfix p{
+  margin-left: 100px;
+}
+
+.sectionthree h1{
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+hr{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
