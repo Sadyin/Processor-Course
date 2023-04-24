@@ -103,14 +103,38 @@ body, html{
     width: 100vh;
  }
 
- .clearfix img{
+/* .clearfix img{
   margin-left: 69px;
 }
 
 .clearfix p{
   padding: 10px;
-  margin-left: 27px;
+  margin-left: 10px;
   margin-right: 10px;
+} */
+
+.clearfix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.clearfix img {
+  margin: 0 20px;
+  max-width: 75%;
+  height: auto;
+}
+
+.sectionAbout p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: justify;
+  margin: 10px;
 }
 
 }
@@ -154,15 +178,31 @@ li.push:hover a {
   text-align: left;
 }
 
-.clearfix img{
-  width: 250px;
-  height: 250px;
-  margin-right: 75px !important;
-  border-radius: 5%;
+
+.clearfix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.clearfix p{
-  margin-left: 100px;
+.clearfix img {
+  margin: 0 20px;
+  max-width: 50%;
+  height: auto;
+  border-radius: 5%;
+
+}
+
+.sectionAbout p {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: left;
+  align-items: left;
+  padding: 10px;
+  text-align: left;
+  margin: 10px;
 }
 
 .sectionthree h1{
@@ -177,3 +217,15 @@ hr{
   margin-left: auto;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid black;
+}
+th {
+  background-color: #ccc;
+}

@@ -2,6 +2,7 @@
 <html>
     <title>My Course</title>
     <head>
+        
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
         <!--     Fonts and icons     -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -9,13 +10,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <link rel="stylesheet" href="now-ui-kit.css"> -->
-        <!-- <link rel="stylesheet" href="now-ui-kit.min.css"> -->
-        <!-- <link rel="stylesheet" href="bootstrap.min.css"> -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <script src="https://use.fontawesome.com/5eddcaafcf.js"></script>
-        <script type="module" src="js.js"></script>
-
         <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
         <script type="importmap">
             {
@@ -25,6 +22,7 @@
               }
             }
           </script>
+       
     </head>
     <body id="main">
         <div>
@@ -33,9 +31,9 @@
                 <nav class="zone green">
                     <ul class="main-nav">
                         <li class="push"><a href="">INSTANT PROCESSOR</a></li>
-                        <li class="sections"><a class="icons" href=""><i class="fa fa-sitemap"></i>Curriculum</a></li>
-                        <li class="sections"><a class="icons" href=""><i class="fa fa-usd"></i>Pricing</a></li>
-                        <li class="sections"><a class="icons" href=""><i class="fa fa-user-o"></i>Register</a></li>
+                        <li class="sections" id="currButton"><a class="icons" data-scroll href="#sectiontwoscroll"><i class="fa fa-sitemap"></i>Curriculum</a></li>
+                        <li class="sections" id="pricButton"><a class="icons" href="#"><i class="fa fa-usd"></i>Pricing</a></li>
+                        <li class="sections" id="regButton"><a class="icons" href="#"><i class="fa fa-user-o"></i>Register</a></li>
                     </ul>
                 </nav>
                 <!-- End Navbar Transparent-->
@@ -44,10 +42,9 @@
          <!-- <canvas data-engine="three.js r140" width="1365" height="937" style="width: 1365px; height: 937px;"></canvas> -->     
              </div>
          </div>
-    
         <!-- Example Code -->
-        <div class="sectiontwo">
-        <div class="container text-center">
+<div class="sectiontwo" id="sectiontwoscroll">
+    <div class="container text-center">
             <div class="row">
               <div class="col">
                 <div class="card">
@@ -61,7 +58,7 @@
                         </ul>
                 </div> 
               </div>
-              
+              <!-- Colum 2 -->
               <div class="col-7">
               <div class="accordion" id="accordionExample">
               <div class="accordion-item">
@@ -112,6 +109,7 @@
     <h1>Meet Your Instructor</h1>
     <div class="clearfix">
       <img src="self.JPG" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+    <div class="sectionAbout">
       <p>With several years of experience in loan processing, I am an ideal instructor for this course. I have a deep understanding of loan processing fundamentals and am familiar with the tools and systems used in loan processing. My excellent communication and teaching skills, coupled with my passion for helping others succeed, makes me confident that I can provide students with the knowledge and skills they need to excel in their careers.</p>
       <p>Welcome to our loan processing course! We're thrilled to have you on board and are excited to help you develop a deep understanding of the fundamentals of loan processing.</p>
 
@@ -124,11 +122,143 @@
       <p>Thank you for choosing our course, and we look forward to helping you achieve your goals as a loan processor!</p>
       
       <p>Best regards, <em><strong>Sadrudin Nasrudin</strong></em></p>
+    </div>
   </div>
 </div>
 <!-- Section Three END About the Instructor -->
 
+<!-- Toast Message -->
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="self.JPG" width="30px" class="rounded me-2" alt="...">
+      <strong class="me-auto">Hey Its Sadrudin!</strong>
+      <small>1 second ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Take a look at what you will learn!!
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Enrollment cost</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table>
+          <tr>
+            <th>Course Duration</th>
+          <td>No Rush! Complete at your own Schedule!</td>
+          </tr>
+          <tr>
+            <th>Course Outline</th>
+            <td>Learn how to set up your workspace, organize forms, calculate income and employment information, and submit documents to the underwriter for review.</td>
+          </tr>
+          <tr>
+            <th>Instructor Credentials</th>
+            <td>Experienced loan processor with a minimum of 5 years in the industry.</td>
+          </tr>
+          <tr>
+            <th>Course Format</th>
+            <td>Online, self-paced with pre-recorded materials.</td>
+          </tr>
+          <tr>
+            <th>Support and Assistance</th>
+            <td>24/7 access to support on our Discord Server from many experienced loan processors.</td>
+          </tr>
+          <tr>
+            <th><strong>Fees</strong></th>
+            <td><strong>One-Time Payment of <span style="color: green;">$799</span> (payment plans available - Contact Sadrudin).</strong></td>
+          </tr>
+          <tr>
+            <th>Enrollment Requirements</th>
+            <td>No previous experience required.</td>
+          </tr>
+          <tr>
+             <th>Career Outcomes</th>
+             <td>Learn the skills and knowledge needed to succeed as a loan processor and boost your career prospects in the financial industry.</td>
+          </tr>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Pricing Modal END -->
+
+<!-- Register Info Here with Payment Option -->
+
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Course Registration</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" class="p-3 m-0 border-0 bd-example">
+        Register for the Course below
+        <br>
+        <form class="row g-3">
+          <div class="col-sm-4">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+          <br>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" placeholder="Email" id="inputEmail4">
+          </div>
+         
+          <div class="col-sm-4">
+            <input type="password" class="form-control" placeholder="Password" id="inputPassword4">
+          </div>
+        </form>
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Continue to Payment</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Payment Processing</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Payment Gateway will be displayed here to collect payment and register the user
+
+
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to Registration</button>
+        <button type="button" class="btn btn-primary">Process Payment</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Register Info End -->
 
 
 </body>
+<script type="text/javascript" src="java.js"></script>
+<script type="module" src="js.js"></script>
+
 </html>
