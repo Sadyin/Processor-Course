@@ -103,16 +103,6 @@ body, html{
     width: 100vh;
  }
 
-/* .clearfix img{
-  margin-left: 69px;
-}
-
-.clearfix p{
-  padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-} */
-
 .clearfix {
   display: flex;
   flex-wrap: wrap;
@@ -228,4 +218,8 @@ th, td {
 }
 th {
   background-color: #ccc;
+}
+
+.accordion-body {
+  text-align: left;
 }

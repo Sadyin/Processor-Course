@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Section 1 - Introduction",
+    "content": "Lecture 1: Course Outline Presented by your Instructor"
+  },
+  {
+    "title": "Section 2 - Setting up the processors workspace",
+    "content": "Lecture 2: Setting up Folders",
+    "content1": "Lecture 3: Helpful Documents to Keep for Processing",
+    "content2": "Lecture 4: Going over our Master Needs List",
+    "content3": "Lecture 5: Desktop Applications to Have"
+  },
+  {
+    "title": "Section 3 - Requesting specific documents from borrowers",
+    "content": "Lecture 6: Initial Documents to Request",
+    "content1": "Lecture 7: What to Look for In Initial Requested Documents"
+  },
+  {
+    "title": "Section 4 - Inputting data into our LOS from the documents received",
+    "content": "Lecture 8: Inputting Data Into Point LOS",
+    "content1": "Lecture 9: Inputting Data into Arive LOS",
+    "content2": "",
+    "content3": ""
+  },
+  {
+    "title": "Section 5 - Calculating income and employment information entry",
+    "content": "Lecture 10: Inputting Data Into the Employment Section from the Documents Received Point LOS",
+    "content1": "Lecture 11: Inputting Data Into the Employment Section from the Documents Received Arive LOS",
+    "content2": "",
+    "content3": ""
+  },
+  {
+    "title": "Section 6 - Pulling the tri-merged credit reports and scores",
+    "content": "Lecture 12: Pulling Credit from Point LOS",
+    "content1": "Lecture 12: Pulling Credit from Arive LOS",
+    "content2": "",
+    "content3": ""
+  },
+  {
+    "title": "Section 7 - Reviewing the Tri-Merged Credit Report",
+    "content": "Lecture 14: Reviewing The Credit Report",
+    "content1": "",
+    "content2": "",
+    "content3": ""
+  },
+  {
+    "title": "Section 8 - Ordering a VOE or Verification of Employment",
+    "content": "Lecture 15: Ordering a VOE (Verification of Employment) From Point",
+    "content1": "Lecture 16: Ordering a VOE (Verification of Employment) From Arive",
+    "content2": "",
+    "content3": ""
+  },
+  {
+    "title": "Section 9 - Exporting the completed file to lenders portal for pricing and AUS",
+    "content": "Lecture 17: Exporting from Point LOS and Importing the File to the Lenders Website",
+    "content1": "Lecture 18: Exporting from Arive LOS and Importing the File to the Lenders Website",
+    "content2": "Lecture 19: Reviewing for Any Errors During the Import",
+    "content3": ""
+  },
+  {
+    "title": "Section 10 - Pricing the loan and running AUS Automated Underwriting System",
+    "content": "Lecture 20: Pricing the Loan for Rate Lock or Float",
+    "content1": "Lecture 21: Going Over the Fee Sheet",
+    "content2": "Lecture 22: Ready to Run AUS for Approve/Eligible",
+    "content3": ""
+  },
+  {
+    "title": "More Sections to Be Added Soon",
+    "content": "Nothing here yet",
+    "content1": "",
+    "content2": "",
+    "content3": ""
+  }
+  
+]
