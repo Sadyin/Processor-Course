@@ -90,44 +90,10 @@ body, html{
     text-decoration: none;
     color: #fff;
   }
+  
 }
 
-@media only screen and (max-width: 650px) {
-  .col-7{
-    text-align: left;
-    width: 100vh;
-    padding-top: 10px;
-  }
 
- .col{
-    width: 100vh;
- }
-
-.clearfix {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.clearfix img {
-  margin: 0 20px;
-  max-width: 75%;
-  height: auto;
-}
-
-.sectionAbout p {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  text-align: justify;
-  margin: 10px;
-}
-
-}
 
 li {
   padding: 0px;
@@ -160,7 +126,7 @@ li.push:hover a {
 }
 
 .sectiontwo{
-  padding-top: 20px;
+  padding-top: 11px;
   padding-bottom: 20px;
 }
 
@@ -168,37 +134,20 @@ li.push:hover a {
   text-align: left;
 }
 
-
-.clearfix {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.clearfix img {
-  margin: 0 20px;
-  max-width: 50%;
-  height: auto;
-  border-radius: 5%;
-
-}
-
-.sectionAbout p {
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: left;
-  align-items: left;
-  padding: 10px;
-  text-align: left;
-  margin: 10px;
-}
-
 .sectionthree h1{
   text-align: center;
   margin-bottom: 10px;
   padding-top: 0px;
+}
+
+.sectiontwo h1{
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+.sectiontwo hr{
+  margin-bottom: 25px;
 }
 
 hr{
@@ -222,4 +171,64 @@ th {
 
 .accordion-body {
   text-align: left;
+  cursor:not-allowed;
+  line-height: 30px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+}
+
+.aboutMe > *:nth-child(1) {
+  flex: 1 1 25%;
+  /* max-width: 95ch; */
+}
+
+.aboutMe > *:nth-child(2) {
+  flex: 1 1 45%;
+  /* max-width: 80ch;
+  margin-right: 40px; */
+}
+
+.aboutMe img {
+  width: 300px;
+  margin-top: 4px;
+  border-radius: 50%;
+  float: right;
+}
+
+.aboutMe p {
+  text-align: left;
+  margin-right: 30%;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 650px) {
+  .col-7{
+    text-align: left;
+    width: 100vh;
+    padding-top: 10px;
+  }
+
+ .col{
+    width: 100vh;
+ }
+
+ .aboutMe{
+  text-align: center;
+}
+
+ .aboutMe img {
+  float: none;
+}
+
+.aboutMe p {
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 5px;
+}
+
 }
